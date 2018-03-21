@@ -6,7 +6,20 @@
   "repository": "https://github.com/jorgegonzalezperez/tictactoe-with-nestjs.git",
   "author": "Jorge González Pérez <jorgegonzalezperez@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "start:prod": "node dist/main.js"
+  },
   "dependencies": {
+    "@nestjs/common": "^4.6.6",
+    "@nestjs/core": "^4.6.6",
+    "class-validator": "^0.8.4",
     "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "enhanced-resolve": "^4.0.0",
+    "ts-node": "^5.0.1"
   }
 }
