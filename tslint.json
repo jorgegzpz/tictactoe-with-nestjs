@@ -13,7 +13,7 @@
             "double"
         ],
         "ordered-imports": [
-            true
+            false
         ],
         "max-line-length": [
             150
@@ -25,14 +25,11 @@
         "interface-name": [
             false
         ],
-        "array-type": [
-            true
-        ],
         "member-access": [
             false
         ],
-        "no-empty-interface": false,
-        "no-empty": false,
+        "no-empty-interface": true,
+        "no-empty": true,
         "arrow-parens": false,
         "object-literal-sort-keys": false,
         "no-unused-expression": false,
@@ -46,7 +43,7 @@
             false
         ],
         "one-variable-per-declaration": [
-            false
+            true
         ]
     },
     "rulesDirectory": []
