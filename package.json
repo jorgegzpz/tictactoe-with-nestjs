@@ -15,6 +15,8 @@
     "@nestjs/common": "^4.6.6",
     "@nestjs/core": "^4.6.6",
     "class-validator": "^0.8.4",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.7",
     "typescript": "^2.7.2"
   },
   "devDependencies": {
