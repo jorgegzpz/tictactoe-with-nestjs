@@ -1,0 +1,10 @@
+{
+  "moduleFileExtensions": [
+        "ts",
+        "js",
+        "json"
+    ],
+    "testRegex": "/src/.*\\.(test|spec).(ts|js)$",
+    "collectCoverageFrom" : ["src/**/*.{js,ts}", "!**/node_modules/**", "!**/dist/**"],
+    "coverageReporters": ["json", "lcov"]
+}
