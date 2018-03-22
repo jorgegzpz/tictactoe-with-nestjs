@@ -1,5 +1,5 @@
-import { User } from "model/users/interfaces/user.interface";
-import { Tile } from "model/games/interfaces/tile.interface";
+import { User } from "../../users/interfaces/user.interface";
+import { Tile } from "../interfaces/tile.interface";
 import { IsDefined } from "class-validator";
 
 export class CreateGameDto {

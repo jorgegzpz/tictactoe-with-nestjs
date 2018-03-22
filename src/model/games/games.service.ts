@@ -1,6 +1,6 @@
 
 import { Component } from "@nestjs/common";
-import { Game } from "model/games/interfaces/game.interface";
+import { Game } from "./interfaces/game.interface";
 
 @Component()
 export class GamesService {

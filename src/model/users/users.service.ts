@@ -1,6 +1,6 @@
 
 import { Component } from "@nestjs/common";
-import { User } from "model/users/interfaces/user.interface";
+import { User } from "./interfaces/user.interface";
 
 @Component()
 export class UsersService {
