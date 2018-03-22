@@ -2,3 +2,9 @@ version: 1.0.{build}
 branches:
   only:
   - develop
+install:
+- cmd: yarn
+build_script:
+- cmd: yarn build
+test_script:
+- cmd: yarn test
