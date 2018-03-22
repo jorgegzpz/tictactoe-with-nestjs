@@ -1,10 +1,20 @@
 {
-  "moduleFileExtensions": [
+    "moduleFileExtensions": [
         "ts",
         "js",
         "json"
     ],
+    "transform": {
+        "^.+\\.ts?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
     "testRegex": "/src/.*\\.(test|spec).(ts|js)$",
-    "collectCoverageFrom" : ["src/**/*.{js,ts}", "!**/node_modules/**", "!**/dist/**"],
-    "coverageReporters": ["json", "lcov"]
+    "collectCoverageFrom": [
+        "src/**/*.{js,ts}",
+        "!**/node_modules/**",
+        "!**/dist/**"
+    ],
+    "coverageReporters": [
+        "json",
+        "lcov"
+    ]
 }
