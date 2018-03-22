@@ -1,8 +1,7 @@
 language: node_js
 
 node_js:
-  - 8.10.0
-  - 9.8.0
+  - 7
 
 cache:
   yarn: true
@@ -13,8 +12,8 @@ install:
 script:
   - yarn test
 
-git:
-  depth: 3
+after_success:
+  - yarn run coverage
 
 branches:
   only:
