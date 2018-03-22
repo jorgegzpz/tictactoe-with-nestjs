@@ -19,10 +19,10 @@ describe("GamesController", () => {
 
     describe("findAll", () => {
         it("should return an array of games", async () => {
-        const result = ["test"];
-        jest.spyOn(gamesService, "findAll").mockImplementation(() => result);
+            const result = [];
+            jest.spyOn(gamesService, "findAll").mockImplementation(() => result);
 
-        expect(await gamesController.findAll()).toBe(result);
+            expect(await gamesController.findAll()).toEqual(result);
         });
     });
 });

@@ -18,10 +18,10 @@ describe("UsersController", () => {
 
     describe("findAll", () => {
         it("should return an array of users", async () => {
-        const result = ["test"];
-        jest.spyOn(usersService, "findAll").mockImplementation(() => result);
+            const result = [];
+            jest.spyOn(usersService, "findAll").mockImplementation(() => result);
 
-        expect(await usersController.findAll()).toBe(result);
+            expect(await usersController.findAll()).toEqual(result);
         });
     });
 });
