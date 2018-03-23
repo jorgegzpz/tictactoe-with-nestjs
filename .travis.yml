@@ -14,6 +14,7 @@ script:
 
 after_success:
   - yarn run coverage
+  - bash <(curl -s https://codecov.io/bash)
 
 branches:
   only:
