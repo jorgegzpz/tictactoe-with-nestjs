@@ -8,13 +8,14 @@ cache:
 
 install:
   - yarn
+  - npm install codecov -g
 
 script:
   - yarn test
 
 after_success:
   - yarn run coverage
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
 
 branches:
   only:
