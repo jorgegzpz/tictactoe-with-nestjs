@@ -1,34 +1,19 @@
-version: 2
-jobs:
+    version: 2
+    jobs:
     build:
-        working_directory: ~/repo
+        working_directory: ~/tictactoe-with-nestjs
         docker:
-        - image: circleci/node:8.10-stretch
+        - image: circleci/node:8-browsers
         steps:
         - checkout
-        - run:
-            name: update-npm
-            command: 'sudo npm install -g npm@latest'
         - restore_cache:
-            key: dependency-cache-{{ checksum "package.json" }}
+            keys:
+                - tictactoe-with-nestjs-{{ .Branch }}
+                - tictactoe-with-nestjs-
         - run:
-            name: install-npm-wee
-            command: npm install
-        - save_cache:
-            key: dependency-cache-{{ checksum "package.json" }}
-            paths:
-                - ./node_modules
+            name: Install Dependencies
+            command: yarn
         - run:
-            name: test
-            command: npm test
-        - run:
-            name: code-coverage
-            command: './node_modules/.bin/nyc report --reporter=text-lcov'
-        - store_artifacts:
-            path: test-results.xml
-            prefix: tests
-        - store_artifacts:
-            path: coverage
-            prefix: coverage
-        - store_test_results:
-path: test-results.xml
+            name: Run Tests
+            command: yarn test
+    destination: coverage
