@@ -1,19 +1,15 @@
-    version: 2
-    jobs:
+version: 2
+jobs:
     build:
         working_directory: ~/tictactoe-with-nestjs
         docker:
-        - image: circleci/node:8-browsers
+            - image: circleci/node:8-browsers
         steps:
-        - checkout
-        - restore_cache:
-            keys:
-                - tictactoe-with-nestjs-{{ .Branch }}
-                - tictactoe-with-nestjs-
-        - run:
-            name: Install Dependencies
-            command: yarn
-        - run:
-            name: Run Tests
-            command: yarn test
-    destination: coverage
+            - checkout
+            - run:
+                name: Install Dependencies
+                command: yarn
+            - run:
+                name: Run Tests
+                command: yarn test
+destination: coverage
