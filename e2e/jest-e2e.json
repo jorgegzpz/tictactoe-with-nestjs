@@ -1,0 +1,10 @@
+{
+    "moduleFileExtensions": [
+        "ts",
+        "js",
+        "json"
+    ],
+    "testRegex": "/e2e/.*\\.(e2e-test|e2e-spec).(ts|js)$",
+    "collectCoverageFrom" : ["src/**/*.{js,jsx,ts}", "!**/node_modules/**", "!**/dist/**"],
+    "coverageReporters": ["json", "lcov"]
+}

@@ -1,0 +1,29 @@
+language: node_js
+
+node_js:
+  - 8
+
+cache:
+  yarn: true
+
+install:
+  - yarn
+  - npm install codecov -g
+
+script:
+  - yarn test
+
+after_success:
+  - yarn run coverage
+  - codecov
+
+branches:
+  only:
+  - develop
+
+notifications:
+  email:
+    recipients:
+      - jorgegonzalezperez@outlook.com
+    on_success: never # default: change
+    on_failure: always # default: always
