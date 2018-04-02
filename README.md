@@ -8,4 +8,3 @@ This is an api example of Tic Tac Toe game with Nestjs frawework
 [![Build status](https://ci.appveyor.com/api/projects/status/20gbiajltqy6nyd4/branch/develop?svg=true)](https://ci.appveyor.com/project/jorgegonzalezperez/tictactoe-with-nestjs/branch/develop)
 [![CircleCI](https://circleci.com/gh/jorgegonzalezperez/tictactoe-with-nestjs/tree/develop.svg?style=svg)](https://circleci.com/gh/jorgegonzalezperez/tictactoe-with-nestjs/tree/develop)
 [ ![Codeship Status for jorgegonzalezperez/tictactoe-with-nestjs](https://app.codeship.com/projects/861f29e0-0f3a-0136-0492-1288c351e72f/status?branch=develop)](https://app.codeship.com/projects/282469)
-[![Ebert](https://ebertapp.io/github/jorgegonzalezperez/tictactoe-with-nestjs.svg)](https://ebertapp.io/github/jorgegonzalezperez/tictactoe-with-nestjs)
