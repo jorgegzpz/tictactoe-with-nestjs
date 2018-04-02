@@ -1,12 +1,15 @@
 {
     "name": "tictactoe-with-nestjs",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A tictactoe api with nestjs",
     "main": "index.js",
     "repository": "https://github.com/jorgegonzalezperez/tictactoe-with-nestjs.git",
     "author": "Jorge González Pérez <jorgegonzalezperez@outlook.com>",
     "license": "MIT",
     "engines": {
+        "node": ">=4.0"
+    },
+    "require": {
         "node": ">=4.0"
     },
     "scripts": {
