@@ -9,6 +9,9 @@
     "engines": {
         "node": ">=4.0"
     },
+    "require": {
+        "node": ">=4.0"
+    },
     "scripts": {
         "start": "node index.js",
         "build": "tsc",
