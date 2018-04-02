@@ -18,4 +18,3 @@ This is an api example of Tic Tac Toe game with Nestjs frawework
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/jorgegonzalezperez/tictactoe-with-nestjs.svg?columns=all)](https://waffle.io/jorgegonzalezperez/tictactoe-with-nestjs)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=plastic)
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
