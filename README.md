@@ -1,8 +1,6 @@
 # tictactoe-with-nestjs
 
 This is an api example of Tic Tac Toe game with Nestjs frawework
-
-
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a85a334daa6eae57f99e/test_coverage)](https://codeclimate.com/github/jorgegonzalezperez/tictactoe-with-nestjs/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a85a334daa6eae57f99e/maintainability)](https://codeclimate.com/github/jorgegonzalezperez/tictactoe-with-nestjs/maintainability)
 [![Build Status](https://travis-ci.org/jorgegonzalezperez/tictactoe-with-nestjs.svg?branch=master)](https://travis-ci.org/jorgegonzalezperez/tictactoe-with-nestjs)
@@ -17,4 +15,3 @@ This is an api example of Tic Tac Toe game with Nestjs frawework
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/jorgegonzalezperez/tictactoe-with-nestjs.svg?columns=all)](https://waffle.io/jorgegonzalezperez/tictactoe-with-nestjs)
 [![wercker status](https://app.wercker.com/status/b5ac111ef970d945fca3b52a2a38dcfa/m/master "wercker status")](https://app.wercker.com/project/byKey/b5ac111ef970d945fca3b52a2a38dcfa)
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
->>>>>>> release/0.1.2
