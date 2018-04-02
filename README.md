@@ -15,5 +15,5 @@ This is an api example of Tic Tac Toe game with Nestjs frawework
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/db7e1af10f8741fe83d7b894c8663552)](https://www.codacy.com/app/jorgegonzalezperez/tictactoe-with-nestjs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jorgegonzalezperez/tictactoe-with-nestjs&amp;utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/jorgegonzalezperez/tictactoe-with-nestjs/badge.svg)](https://snyk.io/test/github/jorgegonzalezperez/ticktactoe-with-netsj)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/jorgegonzalezperez/tictactoe-with-nestjs.svg?columns=all)](https://waffle.io/jorgegonzalezperez/tictactoe-with-nestjs)
-[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 [![wercker status](https://app.wercker.com/status/b5ac111ef970d945fca3b52a2a38dcfa/m/master "wercker status")](https://app.wercker.com/project/byKey/b5ac111ef970d945fca3b52a2a38dcfa)
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
