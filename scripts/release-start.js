@@ -7,6 +7,9 @@ const cb = (err, stdout, stderr) => {
     }
 };
 
+// Push all committed changes
+exec("git push", cb);
+
 // Initialize gitflow
 exec("git flow init -f -d", cb);
 

@@ -25,6 +25,9 @@ if (branch !== branchName) {
     return 1;
 }
 
+// Push all committed changes
+exec("git push", cb);
+
 // Initialize gitflow
 exec("git flow init -f -d", cb);
 
