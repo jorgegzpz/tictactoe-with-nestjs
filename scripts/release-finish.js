@@ -1,5 +1,3 @@
-import { isMaster } from "cluster";
-
 const version = require("../package.json").version;
 const branchName = "release/" + version;
 const { exec } = require('child_process');
