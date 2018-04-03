@@ -20,7 +20,8 @@
         "test:watch": "jest --watch --config=jest.json",
         "test:coverage": "jest --config=jest.json --coverage --coverageDirectory=coverage",
         "e2e": "jest --config=e2e/jest-e2e.json --forceExit",
-        "e2e:watch": "jest --watch --config=e2e/jest-e2e.json"
+        "e2e:watch": "jest --watch --config=e2e/jest-e2e.json",
+        "release": "generate-release"
     },
     "dependencies": {
         "@nestjs/common": "^4.6.6",
@@ -35,6 +36,7 @@
         "@types/express": "^4.11.1",
         "@types/jest": "^22.2.0",
         "@types/node": "^9.4.7",
+        "generate-release": "^0.14.0",
         "jest": "^22.4.3",
         "supertest": "^3.0.0",
         "ts-jest": "^22.4.2",
