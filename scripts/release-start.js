@@ -1,6 +1,5 @@
 const version = require("../package.json").version;
 const { exec } = require('child_process');
-const path = require('path');
 
 const cb = (err, stdout, stderr) => {
     if (err) {
@@ -21,6 +20,6 @@ exec("git pull origin master", cb);
 exec("git checkout develop", cb);
 
 // Creates the release branch
-exec("git checkout -b" + path("release",version), cb);
+exec("git checkout -b release/" + version, cb);
 
 exec("git push", cb);
