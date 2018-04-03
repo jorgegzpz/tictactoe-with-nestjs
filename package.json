@@ -21,7 +21,9 @@
         "test:coverage": "jest --config=jest.json --coverage --coverageDirectory=coverage",
         "e2e": "jest --config=e2e/jest-e2e.json --forceExit",
         "e2e:watch": "jest --watch --config=e2e/jest-e2e.json",
-        "release:start": "node ./scripts/release-start.js"
+        "release:start:patch": "npm version patch --no-git-tag-version && node ./scripts/release-start.js",
+        "release:start:minor": "npm version minor --no-git-tag-version && node ./scripts/release-start.js",
+        "release:start:major": "npm version major --no-git-tag-version && node ./scripts/release-start.js"
     },
     "dependencies": {
         "@nestjs/common": "^4.6.6",
@@ -36,7 +38,6 @@
         "@types/express": "^4.11.1",
         "@types/jest": "^22.2.0",
         "@types/node": "^9.4.7",
-        "commander": "^2.15.1",
         "jest": "^22.4.3",
         "supertest": "^3.0.0",
         "ts-jest": "^22.4.2",
