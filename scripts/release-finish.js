@@ -10,7 +10,7 @@ const cb = (err, stdout, stderr) => {
 };
 
 const getBranch = (err, stdout, stderr) => {
-    branch = stdout;
+    branch = stdout.toString().trim();
     if (err) {
         return;
     }
