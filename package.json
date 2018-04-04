@@ -1,6 +1,6 @@
 {
     "name": "tictactoe-with-nestjs",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "description": "A tictactoe api with nestjs",
     "main": "index.js",
     "repository": "https://github.com/jorgegonzalezperez/tictactoe-with-nestjs.git",
@@ -20,7 +20,11 @@
         "test:watch": "jest --watch --config=jest.json",
         "test:coverage": "jest --config=jest.json --coverage --coverageDirectory=coverage",
         "e2e": "jest --config=e2e/jest-e2e.json --forceExit",
-        "e2e:watch": "jest --watch --config=e2e/jest-e2e.json"
+        "e2e:watch": "jest --watch --config=e2e/jest-e2e.json",
+        "release:start:patch": "npm version patch --no-git-tag-version && node ./scripts/release-start.js",
+        "release:start:minor": "npm version minor --no-git-tag-version && node ./scripts/release-start.js",
+        "release:start:major": "npm version major --no-git-tag-version && node ./scripts/release-start.js",
+        "release:finish": "node ./scripts/release-finish.js"
     },
     "dependencies": {
         "@nestjs/common": "^4.6.6",
