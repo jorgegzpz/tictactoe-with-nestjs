@@ -27,7 +27,7 @@
         "release:finish": "node ./scripts/release-finish.js"
     },
     "dependencies": {
-        "@nestjs/common": "^4.6.6",
+        "@nestjs/common": "^5.0.0",
         "@nestjs/core": "^4.6.6",
         "@nestjs/testing": "^4.6.6",
         "class-validator": "^0.8.4",
